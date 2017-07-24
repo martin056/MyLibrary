@@ -1,0 +1,5 @@
+{% for book_borrow in object_list %}
+  <ul>
+    <li>{{ book_borrow.book }}, {{ book_borrow.returned }}</li>
+  </ul>
+{% endfor %}
